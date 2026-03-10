@@ -21,3 +21,24 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+## macOS
+.DS_Store
+
+## IntelliJ
+.idea/
+
+## Cursor
+.cursor/
+
+## Claude
+.claude/
+
+## Serena
+.serena/
+
+## oh-my-claudecode
+.omc/
+
+## Etcs
+.temp/
