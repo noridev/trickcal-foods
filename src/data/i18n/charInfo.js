@@ -74,6 +74,16 @@ export const charInfo = {
         food: { verylike: ["해초 포케"], like: ["해초 샐러드", "레몬차", "유기농 레몬차"], hate: ["우주식량", "ANSA 우주식량", "석류석 열매", "석류석 화채"] },
         stats: { default: { grade: 3, type: "순수" } }
     },
+    "델리아": {
+        names: { ko: "델리아", en: "Delia", 'zh-CN': "德莉雅", 'zh-TW': "", ja: "" },
+        food: { verylike: ["트리플 민트 초코 아이스크림"], like: ["민트 초코 아이스크림", "허니갈릭 살몬", "로얄 허니갈릭 살몬"], hate: ["레몬차", "유기농 레몬차", "계피맛 건강 알사탕", "계피맛 알사탕"] },
+        stats: { default: { grade: 3, type: "순수" } }
+    },
+    "에르핀(왕도)": {
+        names: { ko: "에르핀(왕도)", en: "Erpin(Royale)", 'zh-CN': "埃尔芬(王道)", 'zh-TW': "", ja: "" },
+        food: { verylike: ["와앙 딸기 케이크"], like: ["딸기 케이크", "초콜릿 아이스크림", "딥다크 초콜릿 아이스크림"], hate: ["코코넛 솔잎죽", "민트 초코 아이스크림", "코코넛 만능 녹즙", "트리플 민트 초코 아이스크림"] },
+        stats: { default: { grade: 3, type: "순수" } }
+    },
     "가비아": {
         names: { ko: "가비아", en: "Gabia", 'zh-CN': "加维亚", 'zh-TW': "", ja: "ガヴィア" },
         food: { verylike: ["계피맛 건강 알사탕"], like: ["계피맛 알사탕", "레몬차", "유기농 레몬차"], hate: ["용족 사탕", "크림 브륄레", "용족 세공 사탕", "소프트 크림 브륄레"] },
@@ -135,7 +145,7 @@ export const charInfo = {
 
     // 냉정
     "이드": {
-        names: { ko: "이드", en: "Ed", 'zh-CN': "伊德", 'zh-TW': "", ja: "" },
+        names: { ko: "이드", en: "Ed", 'zh-CN': "伊德", 'zh-TW': "", ja: "イード" },
         food: { verylike: ["1급 비밀의 포도주스"], like: ["UFC 당근 튀김", "비밀의 포도주스", "UFC 야채 튀김"], hate: ["따뜻한 아이스 아메리카노", "계피맛 알사탕", "뜨거운 냉동 아메리카노", "계피맛 건강 알사탕"] },
         stats: { default: { grade: 3, type: "냉정" } }
     },
@@ -429,7 +439,7 @@ export const charInfo = {
         stats: { default: { grade: 3, type: "활발" } }
     },
     "슈팡": {
-        names: { ko: "슈팡", en: "Shoupan", 'zh-CN': "舒胖", 'zh-TW': "", ja: "" },
+        names: { ko: "슈팡", en: "Shoupan", 'zh-CN': "舒胖", 'zh-TW': "", ja: "シュパン" },
         food: { verylike: ["ANSA 우주식량"], like: ["초콜릿 아이스크림", "우주식량", "딥다크 초콜릿 아이스크림"], hate: ["해초 샐러드", "호박 스프", "호박 스튜", "해초 포케"] },
         stats: { default: { grade: 3, type: "활발" } }
     },
@@ -471,6 +481,11 @@ export const charInfo = {
     "셰이디(역전)": {
         names: { ko: "셰이디(역전)", en: "Shaydi(Twisted)", 'zh-CN': "夏迪(逆转)", 'zh-TW': "", ja: "" },
         food: { verylike: ["악령 푸딩"], like: ["석류석 열매", "유령 푸딩", "석류석 화채"], hate: ["캔 사료", "호박 스프", "고급 캔 사료", "호박 스튜"] },
+        stats: { default: { grade: 3, type: "활발" } }
+    },
+    "네르(빡침)": {
+        names: { ko: "네르(빡침)", en: "Ner(Rage)", 'zh-CN': "涅尔(义愤)", 'zh-TW': "", ja: "" },
+        food: { verylike: ["저당 마시멜로 마카롱"], like: ["마시멜로 마카롱", "멜론 보코치니", "머스크 멜론 보코치니"], hate: ["캬라멜 팝콘", "해초 샐러드", "엘플릭스 캬라멜 팝콘", "해초 포케"] },
         stats: { default: { grade: 3, type: "활발" } }
     },
     "마리": {
